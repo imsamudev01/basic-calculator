@@ -1,0 +1,71 @@
+* {
+    font-family: 'Comic Neue', cursive;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: #e5e5f7;
+    background-color: #e5e5f7;
+    background-image:  linear-gradient(#444cf7 .0625rem, transparent .0625rem), linear-gradient(to right, #444cf7 .0625rem, #e5e5f7 .0625rem);
+    background-size: 1.25rem 1.25rem;
+}
+
+.contenedor {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 0px;
+    background: linear-gradient(145deg, #ffffff, #e6e6dd);
+    box-shadow:  5px 5px 9px #a8a8a2,
+             -5px -5px 9px #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator_section {
+    padding: .625rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#expression {
+    font-size: 2rem;
+    background: linear-gradient(145deg, #ffffff, #ffffff);
+    box-shadow:  5px 5px 9px #a8a8a2,
+             -5px -5px 9px #ffffff;
+    border-radius: .625rem;
+    border: none;
+    padding: .625rem;
+    margin: .625rem;
+}
+
+#Calcular {
+    font-size: 2rem;
+    background: linear-gradient(145deg, #ffffff, #e6e6dd);
+    box-shadow:  5px 5px 9px #a8a8a2,
+             -5px -5px 9px #ffffff;
+    border-radius: .625rem;
+    border: none;
+    margin: .625rem
+}
+
+
+#result {
+    font-size: 4rem;
+    font-weight: 600;
+    color: black;
+    margin-top: 4rem;
+
+}
