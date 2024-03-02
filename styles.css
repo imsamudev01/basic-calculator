@@ -63,7 +63,7 @@ body {
   font-size: 4rem;
   font-weight: 600;
   color: black;
-  margin-top: 4rem;
+  margin-top: 0.625rem;
 }
 
 @media (max-width: 768px) {
@@ -88,10 +88,15 @@ body {
   }
 
   #expression {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    height: 6.25rem;
+    width: 12rem;
   }
 
   #result {
     font-size: 2rem;
+  }
+  #Calcular {
+    font-size: 1.5rem;
   }
 }
